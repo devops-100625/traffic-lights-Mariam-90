@@ -4,21 +4,21 @@ services:
   green-app:
     image:  maryam19455/lights:green-v1.0.0
     ports:
-      - 3000:80
+      - 3001:80
     networks:
       - traffic-lights
   
   red-app:
     image:  maryam19455/lights:red-v1.0.0
     ports:
-      - 3001:80
+      - 3002:80
     networks:
       - traffic-lights
   
   yellow-app:
     image:  maryam19455/lights:yellow-v1.0.0
     ports:
-      - 3002:80
+      - 3003:80
     networks:
       - traffic-lights
 
